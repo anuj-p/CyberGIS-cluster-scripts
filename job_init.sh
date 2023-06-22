@@ -2,4 +2,4 @@
 
 cd /compute_shared
 git clone $JOB_SCRIPT_URL .
-sbatch --ntasks=4 --cpus-per-task=1 job.sh
+sbatch --ntasks=$NTASKS --cpus-per-task=$CPUS_PER_TASK job.sh
