@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -r /compute_shared/job_files
+rm -rf /compute_shared/job_files
