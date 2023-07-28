@@ -10,8 +10,3 @@ chmod +x /home/ubuntu/job_init.sh
 chmod +x /home/ubuntu/job_queue.sh
 chmod +x /home/ubuntu/job_exec.sh
 chmod +x /home/ubuntu/job_cleanup.sh
-
-apt install python3-mpi4py -y
-
-pip3 install notebook
-pip3 install ipyparallel
