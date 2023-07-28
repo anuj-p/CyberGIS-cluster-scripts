@@ -10,3 +10,6 @@ chmod +x /home/ubuntu/job_init.sh
 chmod +x /home/ubuntu/job_queue.sh
 chmod +x /home/ubuntu/job_exec.sh
 chmod +x /home/ubuntu/job_cleanup.sh
+
+pip3 install notebook -y
+pip3 install ipyparallel -y
