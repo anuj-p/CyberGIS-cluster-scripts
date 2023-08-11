@@ -5,6 +5,7 @@ curl -o /home/ubuntu/default.ipynb https://raw.githubusercontent.com/anuj-p/Cybe
 
 apt install python3-mpi4py -y
 
+pip3 install markupsafe==2.0.1
 pip3 install notebook
 pip3 install ipyparallel
 
