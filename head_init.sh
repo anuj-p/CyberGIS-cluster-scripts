@@ -10,4 +10,4 @@ pip3 install notebook
 pip3 install ipyparallel
 
 cd /home/ubuntu
-su -l ubuntu -c "setsid nohup python3 -m notebook --no-browser --port=8888 --ip=$(curl -s http://169.254.169.254/latest/meta-data/public-hostname) --NotebookApp.token='' --NotebookApp.password='' --allow-root > /dev/null 2>&1 & disown"
+sudo -Hiu ubuntu setsid nohup python3 -m notebook --no-browser --port=8888 --ip=$(curl -s http://169.254.169.254/latest/meta-data/public-hostname) --NotebookApp.token='' --NotebookApp.password='' --allow-root > /dev/null 2>&1 & disown
