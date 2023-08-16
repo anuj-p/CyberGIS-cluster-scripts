@@ -4,7 +4,7 @@
 apt install subversion -y
 sudo -Hiu ubuntu svn export https://github.com/anuj-p/CyberGIS-cluster-scripts/trunk/profile_slurm /home/ubuntu/.ipython/profile_slurm
 
-curl -o /home/ubuntu/default.ipynb https://raw.githubusercontent.com/anuj-p/CyberGIS-cluster-scripts/main/default.ipynb
+sudo -Hiu ubuntu curl -o /home/ubuntu/default.ipynb https://raw.githubusercontent.com/anuj-p/CyberGIS-cluster-scripts/main/default.ipynb
 
 apt install python3-mpi4py -y
 
