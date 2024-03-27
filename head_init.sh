@@ -9,12 +9,15 @@ sudo -Hiu ubuntu curl -o /home/ubuntu/start.sh https://raw.githubusercontent.com
 chmod +x /home/ubuntu/start.sh
 
 apt install python3-mpi4py -y
+apt install python3-osmnx -y
 
 pip3 install markupsafe==2.0.1 --force-reinstall
 pip3 install notebook
 pip3 install ipyparallel
 
 pip3 install numpy
+pip3 install networkx
+pip install shapely -y
 
 TOKEN=`curl -s -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
 PUBLIC_DNS=`curl -s http://169.254.169.254/latest/meta-data/public-hostname -H "X-aws-ec2-metadata-token: $TOKEN"`
