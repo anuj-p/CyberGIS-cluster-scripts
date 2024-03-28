@@ -15,8 +15,12 @@ pip3 install notebook
 pip3 install ipyparallel
 
 pip3 install numpy==1.21
-pip3 install networkx
+pip3 install fiona
 pip3 install shapely
+pip3 install rtree
+pip3 install pyogrio
+pip3 install pyproj
+pip3 install networkx
 pip3 install matplotlib
 pip3 install geopandas
 pip3 install osmnx
