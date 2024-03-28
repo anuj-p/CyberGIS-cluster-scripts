@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # PREPARE HEAD NODE
-sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
-
 apt install subversion -y
 sudo -Hiu ubuntu git clone https://github.com/anuj-p/CyberGIS-cluster-scripts.git /home/ubuntu/.ipython
 
