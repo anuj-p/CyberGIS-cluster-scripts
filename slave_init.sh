@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # PREPARE SLAVE NODE
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
+
 apt install python3-mpi4py -y
 
 pip3 install ipyparallel
