@@ -25,6 +25,7 @@ pip3 install matplotlib
 pip3 install geopandas
 pip3 install osmnx
 pip3 install scikit-learn
+pip3 install imageio
 
 TOKEN=`curl -s -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
 PUBLIC_DNS=`curl -s http://169.254.169.254/latest/meta-data/public-hostname -H "X-aws-ec2-metadata-token: $TOKEN"`
