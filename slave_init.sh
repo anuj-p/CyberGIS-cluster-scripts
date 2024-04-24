@@ -16,3 +16,4 @@ pip3 install matplotlib
 pip3 install geopandas
 pip3 install osmnx
 pip3 install scikit-learn
+pip3 install imageio
