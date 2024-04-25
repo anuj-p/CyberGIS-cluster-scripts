@@ -14,19 +14,7 @@ pip3 install markupsafe==2.0.1 --force-reinstall
 pip3 install notebook
 pip3 install ipyparallel
 
-pip3 install numpy
-pip3 install fiona
-pip3 install shapely
-pip3 install rtree
-pip3 install pyogrio
-pip3 install pyproj
-pip3 install networkx
-pip3 install matplotlib
-pip3 install geopandas
-pip3 install osmnx
-pip3 install scikit-learn
-pip3 install imageio
-pip3 install ipywidgets
+pip3 install numpy fiona shapely rtree pyogrio pyproj networkx matplotlib geopandas osmnx scikit-learn imageio ipywidgets
 
 TOKEN=`curl -s -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
 PUBLIC_DNS=`curl -s http://169.254.169.254/latest/meta-data/public-hostname -H "X-aws-ec2-metadata-token: $TOKEN"`
